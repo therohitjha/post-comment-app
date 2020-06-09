@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/post-comment-app/static/css/main.a5fba7a3.chunk.css",
+    "main.js": "/post-comment-app/static/js/main.01719972.chunk.js",
+    "main.js.map": "/post-comment-app/static/js/main.01719972.chunk.js.map",
+    "runtime-main.js": "/post-comment-app/static/js/runtime-main.32da131e.js",
+    "runtime-main.js.map": "/post-comment-app/static/js/runtime-main.32da131e.js.map",
+    "static/js/2.e33a794a.chunk.js": "/post-comment-app/static/js/2.e33a794a.chunk.js",
+    "static/js/2.e33a794a.chunk.js.map": "/post-comment-app/static/js/2.e33a794a.chunk.js.map",
+    "index.html": "/post-comment-app/index.html",
+    "precache-manifest.8d2e50c5d53c25d88d80100440986827.js": "/post-comment-app/precache-manifest.8d2e50c5d53c25d88d80100440986827.js",
+    "service-worker.js": "/post-comment-app/service-worker.js",
+    "static/css/main.a5fba7a3.chunk.css.map": "/post-comment-app/static/css/main.a5fba7a3.chunk.css.map",
+    "static/js/2.e33a794a.chunk.js.LICENSE.txt": "/post-comment-app/static/js/2.e33a794a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32da131e.js",
+    "static/js/2.e33a794a.chunk.js",
+    "static/css/main.a5fba7a3.chunk.css",
+    "static/js/main.01719972.chunk.js"
+  ]
+}
