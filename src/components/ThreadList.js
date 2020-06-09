@@ -6,7 +6,7 @@ import { ThreadContext } from "../App";
 
 function ThreadList() {
   const { thread, setThreadPost } = useContext(ThreadContext);
-  console.log(thread);
+  
   return (
    <>
       {thread &&

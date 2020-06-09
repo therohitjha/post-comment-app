@@ -1,13 +1,7 @@
 import React, { useState, createContext } from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import { HashRouter as Router, Switch, Route, NavLink } from "react-router-dom";
 import Home from "./components/Home";
 import Thread from "./components/Thread";
-import Err from "./Err";
 import { v4 as uuid } from "uuid";
 import "./app.scss";
 export const ThreadContext = createContext();
@@ -29,7 +23,6 @@ function App() {
         return { ...prevData, [name]: value };
       });
     }
-    // console.log(name, value);
   };
 
   const handleSubmit = (e) => {
@@ -57,7 +50,7 @@ function App() {
     }
   };
   return (
-    <Router>
+    <Router basename="/">
       <ThreadContext.Provider
         value={{
           post,
@@ -79,7 +72,6 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/thread" component={Thread} />
-          <Route component={Err} />
         </Switch>
       </ThreadContext.Provider>
     </Router>
