@@ -28,6 +28,7 @@ html,body{
 .home__form{
     display: flex;
     flex-direction: column;
+    width: 80%;
 }
 
     .input__post{
@@ -54,7 +55,7 @@ html,body{
 
         .post__list{
             font-size: 18px;
-            color: black;
+            color: red;
             margin: .5rem;
             text-transform: uppercase;
         }
@@ -78,4 +79,10 @@ html,body{
     
        .comment{
            margin: .2rem !important;
+       }
+
+       @media (min-width:700px){
+        .home__form{
+           width: 50% !important;
+        }
        }
